@@ -65,6 +65,7 @@ const Header = () => {
              justify-content-between">
                 <div className="logo">
                    <img src={logo} alt="logo" />
+                     <h5>Tasty Treat</h5>
                 </div>
                 {/*-----menu-----*/}
                 <div className="navigation" ref={menuRef} onClick={toggleMenu}>
