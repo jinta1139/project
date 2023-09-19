@@ -7,17 +7,17 @@
     line-height: 55px;
 }
 
-.hero__title span {
+.hero_title span{
     color: #df2020;
 }
 
-.hero__content p {
+.hero_content p {
     font-size: 1rem;
     line-height: 30px;
     color: #777;
 }
 
-.order__btn {
+.hero_btns button {
     border: none;
     outline: none;
     padding: 7px 20px;
@@ -28,13 +28,19 @@
     font-weight: 600;
 }
 
-.order__btn:hover {
-    background: #212245;
+.order__btn{
+    background: #df2020;
+    color: #fff;
 }
 
-.order__btn:hover a {
-    color: inherit;
-    text-decoration: none;
+
+.all_foods-btn{
+    background: transparent;
+    border: 1px solid #df2020 !important;
+}
+
+.all_foods-btn a{
+    color: #df2020;
 }
 
 .hero__img {
